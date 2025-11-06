@@ -1,11 +1,22 @@
 body {
-    background-color: #f0f8ff;
-    font-family: Arial, sans-serif; padding : 20px;
+    background-color:#f0f8ff;
+    font-family: Arial, sans-serif; 
 }
 
+.container {
+    widht: 90%;
+    max-widht: 900px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+}
 
-h1 { color: Blue;}
-h2 {color: Green;}
+h1 { 
+    color: Blue;
+}
+h2 {
+    color: Green;
+}
 p { 
     color: purple;
     font-size: 16px; 
@@ -13,11 +24,23 @@ p {
 #foto-profil {
     border: 5px solid #333;
     padding: 10px;
-    background-color: white;
     margin-bottom: 20px;
+    height: auto;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .target-penting {
     color: #ff8c00;
     font-weight: bold;
+}
+
+ul, ol {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.list-hobi {
+    display: flex;
+    gap: 20px;
 }
